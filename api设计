@@ -1,0 +1,13 @@
+API路由
+  GET /api/entries 获取条目列表
+  GET /api/entries/page 获取单页条目
+  POST /api/entry 创建新的留言条目
+
+Web UI路由
+  GET /post 显示创建新条目的表单
+  POST /post 提交新条目
+  GET /register 显示用户注册表单
+  POST /register 创建新的用户账号
+  GET /login 显示登陆表单
+  POST /login 登陆
+  GET /logout 退出

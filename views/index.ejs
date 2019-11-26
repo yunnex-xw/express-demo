@@ -1,0 +1,15 @@
+
+<!-- settings 是 express 默认传给视图的程序级变量 即 app.set设置的属性 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div>模板：<%= settings["view engine"] %></div>
+  </body>
+</html>
